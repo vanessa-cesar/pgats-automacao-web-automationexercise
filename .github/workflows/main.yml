@@ -5,11 +5,12 @@ on:
 
 jobs:
   e2e-tests:
+  
     runs-on: ubuntu latest
    
     steps:
     
-      # clonar do projeto para máquina
+      # clone do projeto para máquina
       - uses: actions/checkout@v4
 
       # Conferir a versão instalada
